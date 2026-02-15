@@ -1,0 +1,10 @@
+Create repository
+Clone repository
+Create a folder name lab-0
+Create a text file under lab-0
+Push into the repository with commit message
+Create a html file
+Use table for name, id, cgpa and department column
+Push the file
+Create a log file to keep all the records
+Push the updated files
