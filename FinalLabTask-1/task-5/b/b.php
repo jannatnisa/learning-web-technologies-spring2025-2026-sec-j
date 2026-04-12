@@ -25,7 +25,7 @@ if (isset($_POST['ssc']) || isset($_POST['hsc']) || isset($_POST['bsc']) || isse
 </head>
 <body>
 
-<form action="handler.php" method="post">
+<form action="" method="post">
     Degrees:<br>
     <input type="checkbox" name="degree[]" value="SSC"> SSC
     <input type="checkbox" name="degree[]" value="HSC"> HSC
