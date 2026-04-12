@@ -11,7 +11,7 @@ echo "Selected Blood Group: " . $blood;
 </head>
 <body>
 
-<form action="handler.php" method="post">
+<form action="" method="post">
     Blood Group:
     <select name="blood">
         <option value="A+">A+</option>
