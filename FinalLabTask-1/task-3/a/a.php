@@ -15,9 +15,21 @@ if (isset($_POST['dd']) && isset($_POST['mm']) && isset($_POST['yyyy'])) {
 <body>
 
 <form action="handler.php" method="post">
-    <label>Date of Birth:</label>
-    <input type="date" name="dob">
-    <button type="submit">Submit</button>
+    <fieldset>
+        <legend><h4>Date of birth</h4></legend>
+        
+        <label for="dd">dd</label>
+        <input type="text" name="dd" size="2" maxlength="2" /> /
+        
+        <label for="mm">mm</label>
+        <input type="text" name="mm" size="2" maxlength="2" /> /
+        
+        <label for="yyyy">yyyy</label>
+        <input type="text" name="yyyy" size="4" maxlength="4" />
+        
+        <hr />
+        <input type="submit" value="Submit" />
+    </fieldset>
 </form>
 
 </body>
