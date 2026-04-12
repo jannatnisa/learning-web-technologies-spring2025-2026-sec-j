@@ -13,7 +13,7 @@ if (isset($_POST['email'])) {
 
 <form action="handler.php" method="post">
     <label>Email:</label>
-    <input type="email" name="email" required>
+    <input type="email" name="email">
     <button type="submit">Submit</button>
 </form>
 
