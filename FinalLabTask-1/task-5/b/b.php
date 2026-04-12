@@ -21,7 +21,7 @@ if (isset($_POST['ssc']) || isset($_POST['hsc']) || isset($_POST['bsc']) || isse
 <!DOCTYPE html>
 <html>
 <head>
-    <title>task5-a</title>
+    <title>task5-b</title>
 </head>
 <body>
 
