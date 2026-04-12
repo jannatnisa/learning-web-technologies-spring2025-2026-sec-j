@@ -10,7 +10,7 @@ if (isset($_POST['dd']) && isset($_POST['mm']) && isset($_POST['yyyy'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DOB Form</title>
+    <title>task3-a</title>
 </head>
 <body>
 
