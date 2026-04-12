@@ -12,10 +12,8 @@ if (isset($_POST['email'])) {
   <body>
     <form action="" method="post">
       <label>Email:</label>
-    <input type="email" name="email" required>
+    <input type="email" name="email">
     <button type="submit">Submit</button>
     </form>
   </body>
 </html>
-<?php
-}
